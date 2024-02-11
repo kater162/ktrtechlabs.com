@@ -19,9 +19,9 @@ disableImageOptimization = false
 disableTextInHeader = false
 
 defaultBackgroundImage = "home-default.png" # used as default for background images 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultFeaturedImage = "home-default.jpg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
+highlightCurrentMenuArea = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
@@ -44,13 +44,13 @@ defaultBackgroundImage = "home-default.png" # used as default for background ima
   showMoreLinkDest = "/posts"
   cardView = false
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
   showViews = false
   showLikes = false
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showHero = false
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
